@@ -62,6 +62,7 @@ body {
 }
 
 .main {
+    position: relative;
     margin: 0 auto;
     margin-top: 20px;
     width: 911px;
@@ -93,6 +94,35 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.09px;
+}
+
+.main__slogan {
+    position: absolute;
+    font-size: 36px;
+    top: 402px;
+    left: 740px;
+    font-family: Lobster;
+    font-weight: 400;
+    color: #646464;
+}
+
+.up {
+    position: absolute;
+    font-size: 36px;
+    top: 402px;
+    left: 722px;
+    font-family: Lobster;
+    font-weight: 400;
+    color: #646464;
+}
+.down {
+    position: absolute;
+    font-size: 36px;
+    top: 435px;
+    left: 860px;
+    font-family: Lobster;
+    font-weight: 400;
+    color: #646464;
 }
 
 .footer {
