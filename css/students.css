@@ -13,9 +13,7 @@ body {
     margin: 0 auto;
 }
 
-.header {
 
-}
 
 .header__wrapper {
     background-color: #213B7E;
@@ -61,68 +59,51 @@ body {
     color: white;
 }
 
-.main {
-    position: relative;
+.main-students {
+    width: 1202px;
+    height: 599px;
     margin: 0 auto;
+}
+
+.title {
     margin-top: 20px;
-    width: 911px;
-    height: 720px;
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 36.33px;
 }
 
-.main__title {
-    font-size: 30px;
-    margin-bottom: 20px;
+.student {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.main__img {
-    width: 523px;
-    height: 316px;
+.student__card {
+    margin-top: 20px;
+    width: 200px;
+    height: 270px;    
+    background-color: #86C6F4;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
-.main__container {
-    width: 634px;
-}
-
-.main__subtitle {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 29.3px;
-    margin: 15px 0 10px;
-}
-
-.main__text {
+.nev-student {
+    width: 94px;
+    height: 24px;
+    position: absolute;
+    left: 498px;
+    top: 150px;
+    border-radius: 20px;
+    background: #3AA828;
     font-size: 18px;
+    color: #FFFFFF;
     font-weight: 400;
-    line-height: 21.09px;
+
 }
 
-.main__slogan {
-    position: absolute;
-    font-size: 36px;
-    top: 402px;
-    left: 740px;
-    font-family: Lobster;
-    font-weight: 400;
-    color: #646464;
-}
 
-.up {
-    position: absolute;
-    font-size: 36px;
-    top: 402px;
-    left: 722px;
-    font-family: Lobster;
-    font-weight: 400;
-    color: #646464;
-}
-.down {
-    position: absolute;
-    font-size: 36px;
-    top: 435px;
-    left: 860px;
-    font-family: Lobster;
-    font-weight: 400;
-    color: #646464;
+.students__name {
+    text-align: center;
 }
 
 .footer {
