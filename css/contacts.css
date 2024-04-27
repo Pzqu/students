@@ -1,7 +1,6 @@
 * {
     padding: 0;
     list-style-type: none
-    
 }
 
 body {
@@ -56,51 +55,51 @@ body {
     color: white;
 }
 
-.main-students {
-    width: 1202px;
-    height: 599px;
+.main {
+    position: relative;
+    margin-top: 20px;
+    width: 1268px;
+    height: 720px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
-.title {
-    margin-top: 20px;
+.main-title {
     font-family: Roboto;
-    font-size: 31px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 36.33px;
+    line-height: 35.16px;
+    margin-bottom: 20px;
 }
 
-.student {
-    display: flex;
-    justify-content: space-evenly;
+.cards {
+    margin-bottom: 15px;
 }
 
-.student__card {
-    margin-top: 20px;
-    width: 200px;
-    height: 270px;    
-    background-color: #86C6F4;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-.nev-student {
-    width: 94px;
-    height: 24px;
-    position: absolute;
-    left: 498px;
-    top: 150px;
-    border-radius: 20px;
-    background: #3AA828;
-    font-size: 18px;
-    color: #FFFFFF;
+.contacts {
+    font-family: Roboto;
+    font-size: 25px;
     font-weight: 400;
-
+    line-height: 30px;
+    margin-bottom: 15px;
 }
 
-.students__name {
-    text-align: center;
+.addres {
+    
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 15px;
 }
+
+.tel {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
 
 .footer {
     background-color: #213B7E;
